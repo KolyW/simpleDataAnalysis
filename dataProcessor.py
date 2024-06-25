@@ -27,7 +27,7 @@ class dataProcessor:
         """ Remove rows with empty company, odometer, color, sellingprice """
         if not subset:
             subset = ['COMPANY', 'odometer', 'color', 'Sale year', 'sellingprice']
-        self.data.dropna(subset=subset)
+        self.data = self.data.dropna(subset=subset)
     
     def dataWashing(self):
         """ Data reformalization, keep consistency """
