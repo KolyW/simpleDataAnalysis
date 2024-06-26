@@ -9,6 +9,7 @@ A simple data analysis tool to solve some specific problems
 
 ### Usage
 
+Firstly open the script `dataProcessor.py` and make sure that the data path is correct.
 Run the following code.
 
 ```
@@ -26,6 +27,10 @@ This script `dataProcessor.py` will create a folder named `result` and save the 
 2. The following table shows the mileage distribution of the top three exterior color sales in 2014 and 2015 (stacked bar chart, grouped by mileage label).
 3. Display the average sales amount from Monday to Sunday
 
+### Usage
+
+Firstly open the script `viz.py` and make sure that the data path is correct.
+The visualization only concerns the well-preprocessed data, thus the default data path is `result/result.csv`. Make sure to run the first script to generate the preprocessed data before the visualization attempt.
 Run the following code.
 
 ```
